@@ -1,0 +1,19 @@
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/navbar.css");
+@import url("components/field.css");
+
+@import url("pages/index.css");
+
+
+
+
+@font-face {
+font-family: Oscar;
+src: local(Oscar), url('fonts/Oscar/Pelavin Fonts - Oscar.otf') format('opentype');
+}
+
+h2, h3, h4, h5, p, a {
+  margin: 0;
+  font-family: Verdana, Helvetica, sans-serif !important;
+}

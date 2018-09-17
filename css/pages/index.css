@@ -1,0 +1,167 @@
+h3 {
+  font-size: 24px !important;
+  margin-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.7) !important;
+}
+
+h3.section {
+  position: relative;
+  z-index: 1;
+
+}
+h3.section:before {
+  border-top: 2px solid #dfdfdf;
+  content:"";
+  margin: 0 auto; /* this centers the line to the full width specified */
+  position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+  top: 50%; left: 0; right: 0; bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+span {
+  /* to hide the lines from behind the text, you have to set the background color the same as the container */
+  background: #fff;
+  padding: 0 15px;
+}
+
+#whynow {
+  margin-top: 70px;
+}
+
+#whynow h5 {
+  color: #061649;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.whynow-icons {
+  margin: 70px 0;
+}
+
+.whynow-icons h4 {
+  margin: 20px 0;
+  color: #8E1D6E;
+  font-weight: bold;
+}
+
+.whynow-icons p {
+  margin-bottom: 40px;
+}
+
+
+#whatwedo {
+  margin: 70px 0;
+}
+
+#whatwedo h5 {
+  color: #061649;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.description-flex {
+  display: flex;
+  height: 430px;
+  width: 100%;
+}
+
+.description-text {
+  height: 100%;
+  flex: 0 0 50%;
+  background: rgba(6,22,73,0.05);
+}
+
+
+
+.description-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.text h5 {
+  color: #061649;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.text {
+  flex: 0 0 85%;
+}
+
+.description-image {
+  flex: 0 0 50%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #061649;
+  background-blend-mode: screen;
+}
+
+.identify {
+  background-image: url('../../images/identify.jpg');
+}
+
+.connect {
+  background-image: url('../../images/connect.jpg');
+}
+
+.pitch {
+  background-image: url('../../images/pitch.jpg');
+}
+
+.close-deal {
+  background-image: url('../../images/close.jpg');
+}
+
+
+.description-image-hidden {
+  display: none;
+  flex: 0 0 50%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #061649;
+  background-blend-mode: screen;
+}
+
+.connect-hidden {
+  background-image: url('../../images/connect.jpg');
+}
+
+.close-hidden {
+  background-image: url('../../images/close.jpg');
+}
+
+@media (max-width: 1100px) {
+  .description-flex {
+    display: block;
+    margin-bottom: 430px;
+  }
+  .connect {
+    display: none;
+  }
+  .description-image-hidden {
+    display: block;
+  }
+  .close-deal {
+    display: none;
+  }
+  .description-text img {
+    display: none;
+  }
+}
+  @media (max-width: 800px) {
+    .description-flex {
+      display: none;
+    }
+  }
+
+}

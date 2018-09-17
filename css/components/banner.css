@@ -1,0 +1,85 @@
+.banner {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*margin-top: -70px;*/
+}
+
+.banner-content {
+  padding: 0 20px;
+}
+
+.banner-content h1 {
+  font-family: Oscar;
+  color: #B97D07;
+  font-size: 120px;
+  font-weight: 300;
+}
+
+.banner-content h2 {
+  color: white;
+  letter-spacing: 1px;
+  font-size: 26px;
+  padding: 0 150px;
+  line-height: 150%;
+}
+
+
+.banner-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+@media (max-width: 900px) {
+  .banner-content h1 {
+    font-size: 100px;
+  }
+  .banner-content h2 {
+    font-size: 20px;
+    padding: 0 100px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .banner-content h1 {
+    font-size: 70px;
+  }
+  .banner-content h2 {
+    font-size: 16px;
+    padding: 0 50px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .banner-content h1 {
+    /*margin-top: 36px;*/
+    font-size: 56px;
+  }
+  .banner-content h2 {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+  .banner-button {
+    display: block;
+    padding-top: 10px;
+  }
+  .btn-left {
+    margin-top: 30px;
+  }
+ .btn-reverse {
+  margin-right: 0px !important;
+  }
+  .btn-plum {
+  margin-left: 0px !important;
+  }
+  .navbar-leadgeni-item {
+    padding: 0 !important;
+  }
+
+}

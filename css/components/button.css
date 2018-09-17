@@ -1,0 +1,46 @@
+.btn-reverse {
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 4px;
+  background: transparent;
+}
+
+.btn-reverse:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #8E1D6E;
+  border: 1px solid #8E1D6E;
+  transition: all 0.7s ease;
+}
+
+.btn-plum {
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+  padding: 10px 34px;
+  background-color: #8E1D6E;
+  margin-left: 10px;
+  border-radius: 4px;
+  transition: all 0.7s ease;
+
+}
+
+.btn-plum:hover {
+  background-color: #A1217D;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-plum-field {
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+  padding: 10px 15px;
+  background-color: #8E1D6E;
+  margin-left: 10px;
+  border-radius: 4px;
+}
