@@ -1,11 +1,14 @@
 .banner {
-  height: 100vh;
+  height: calc(100vh - 70px); /*gone*/
+  margin-top: 70px; /* gone*/
+  /*height: 100vh;*/
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  /*margin-top: -70px;*/
 }
 
 .banner-content {

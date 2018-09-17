@@ -8,6 +8,9 @@
   position: fixed;
   width: 100%;
   z-index: 2;
+  background-color: white; /*gone*/
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03); /*gone*/
+  border-top: 4px solid #8E1D6E; /*gone*/
 }
 
 .navbar-logo img {
@@ -20,7 +23,8 @@
 }
 
 .navbar-leadgeni-link {
-  color: white;
+  color: #061649;
+  /*color: whsite;*/
   font-size: 16px;
   padding-left: 3px;
   padding-right: 3px;
@@ -30,7 +34,7 @@
 .navbar-leadgeni-link:hover {
   color: #8E1D6E;
   text-decoration: none;
-  border-bottom: 3px solid #8E1D6E;
+  /*border-bottom: 3px solid #8E1D6E;*/
   padding-bottom: 10px;
 }
 
@@ -89,4 +93,3 @@
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
-
