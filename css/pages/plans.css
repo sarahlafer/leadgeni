@@ -1,0 +1,89 @@
+#plans {
+  padding: 120px 0;
+}
+
+#plans h3 {
+  margin-bottom: 40px;
+
+}
+
+#star {
+  margin-top: 20px;
+}
+
+.flex-plan {
+  display: flex;
+  width: 100%;
+}
+
+.flex-plan-item {
+  text-align: center;
+  flex: 0 0 20%;
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 30px 2px;
+  background: white;
+}
+
+.flex-plan-item h5 {
+  margin-bottom: 0;
+}
+
+.starter {
+  background: #8E1D6E;
+  color: white;
+}
+
+.corporate {
+  background: #061649;
+  color: white;
+}
+
+.enterprise {
+  background: #D0CCD0;
+  color: white;
+}
+
+.partner {
+  background: #B97D07;
+  color: white;
+}
+
+.plan h5 {
+  font-weight: bold;
+}
+
+.starter h5 {
+  font-weight: bold;
+}
+
+.corporate h5 {
+  font-weight: bold;
+}
+
+.enterprise h5 {
+  font-weight: bold;
+}
+
+.partner h5 {
+  font-weight: bold;
+}
+
+.starter-text {
+  color: #8E1D6E;
+  background: rgba(142,29,110,0.2);
+}
+.corporate-text {
+  color: #061649;
+  background: rgba(6,22,73,0.2);
+
+}
+.enterprise-text {
+  color: rgb(120,120,120);
+  background: rgba(208,204,208,0.2);
+
+}
+.partner-text {
+  color: #B97D07;
+  background: rgba(185,125,7,0.2);
+
+}
