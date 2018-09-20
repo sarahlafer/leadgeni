@@ -40,7 +40,7 @@
 
 .enterprise {
   background: #D0CCD0;
-  color: white;
+  color: rgb(120,120,120);
 }
 
 .partner {
@@ -87,3 +87,51 @@
   background: rgba(185,125,7,0.2);
 
 }
+
+#flex-starter, #flex-corporate, #flex-enterprise, #flex-partner {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  #flex-plans {
+    display: none;
+  }
+  #flex-starter, #flex-corporate, #flex-enterprise, #flex-partner {
+    display: block;
+    margin-bottom: 30px;
+  }
+  #flex-starter h5 {
+    font-size: 16px;
+  }
+   #flex-corporate h5 {
+    font-size: 16px;
+  }
+   #flex-enterprise h5 {
+    font-size: 16px;
+  }
+   #flex-partner h5 {
+    font-size: 16px;
+  }
+  .flex-plan-item {
+    padding: 20px 2px;
+  }
+  .plan, .starter, .plan-text, .starter-text, .corporate, .corporate-text, .enterprise, .enterprise-text, .partner, .partner-text {
+    flex: 0 0 50%;
+  }
+
+  #star {
+    font-size: 16px;
+  }
+/*  .starter {
+    flex: 0 0 50%;
+  }
+  .plan-text {
+    flex: 0 0 50%;
+  }
+  .starter-text {
+    flex: 0 0 50%;
+  }*/
+
+}
+
+
