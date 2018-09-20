@@ -82,8 +82,9 @@
 }
 .navbar-leadgeni-dropdown-menu li > a:hover {
   background: transparent !important;
-  color: black !important;
+  color: #061649 !important;
   border: none !important;
+  text-decoration: none !important;
 }
 .navbar-leadgeni-dropdown-menu:before {
   content: ' ';
