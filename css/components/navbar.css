@@ -15,6 +15,8 @@
 
 .navbar-logo img {
   height: 50px;
+ /* height: 130px;
+  margin-left: -40px;*/
 }
 
 #leadgeni-right {
@@ -23,12 +25,10 @@
 
 .navbar-leadgeni-item {
   cursor: pointer;
-  /*padding: 0 20px;*/
 }
 
 .navbar-leadgeni-link {
   color: #061649;
-  /*color: whsite;*/
   font-size: 16px;
   padding-left: 3px;
   padding-right: 3px;
@@ -38,8 +38,6 @@
 .navbar-leadgeni-link:hover {
   color: #8E1D6E;
   text-decoration: none;
-  /*border-bottom: 3px solid #8E1D6E;*/
-  /*padding-bottom: 10px;*/
 }
 
 .navbar-white {

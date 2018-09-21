@@ -3,20 +3,17 @@
 @import url("components/navbar.css");
 @import url("components/field.css");
 @import url("components/footer.css");
-
+@import url("components/form.css");
 @import url("pages/index.css");
 @import url("pages/plans.css");
-
-
-
-
+@import url("pages/demo.css");
 
 @font-face {
 font-family: Oscar;
 src: local(Oscar), url('fonts/Oscar/Pelavin Fonts - Oscar.otf') format('opentype');
 }
 
-h2, h3, h4, h5, p, a {
+h2, h3, h4, h5, p, a, input {
   margin: 0;
   font-family: Verdana, Helvetica, sans-serif !important;
 }

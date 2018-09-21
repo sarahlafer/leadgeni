@@ -4,7 +4,6 @@
 
 #plans h3 {
   margin-bottom: 40px;
-
 }
 
 #star {
@@ -20,8 +19,11 @@
   text-align: center;
   flex: 0 0 20%;
   border: 1px solid rgba(0,0,0,0.2);
-  padding: 30px 2px;
+  padding: 30px 5px;
   background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .flex-plan-item h5 {
@@ -75,17 +77,14 @@
 .corporate-text {
   color: #061649;
   background: rgba(6,22,73,0.2);
-
 }
 .enterprise-text {
   color: rgb(120,120,120);
   background: rgba(208,204,208,0.2);
-
 }
 .partner-text {
   color: #B97D07;
   background: rgba(185,125,7,0.2);
-
 }
 
 #flex-starter, #flex-corporate, #flex-enterprise, #flex-partner {
@@ -103,13 +102,13 @@
   #flex-starter h5 {
     font-size: 16px;
   }
-   #flex-corporate h5 {
+  #flex-corporate h5 {
     font-size: 16px;
   }
-   #flex-enterprise h5 {
+  #flex-enterprise h5 {
     font-size: 16px;
   }
-   #flex-partner h5 {
+  #flex-partner h5 {
     font-size: 16px;
   }
   .flex-plan-item {
@@ -118,20 +117,9 @@
   .plan, .starter, .plan-text, .starter-text, .corporate, .corporate-text, .enterprise, .enterprise-text, .partner, .partner-text {
     flex: 0 0 50%;
   }
-
   #star {
     font-size: 16px;
   }
-/*  .starter {
-    flex: 0 0 50%;
-  }
-  .plan-text {
-    flex: 0 0 50%;
-  }
-  .starter-text {
-    flex: 0 0 50%;
-  }*/
-
 }
 
 
