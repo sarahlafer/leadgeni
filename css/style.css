@@ -19,5 +19,5 @@ h2, h3, h4, h5, p, a, input {
 }
 
 .modal {
-  z-index: 1041;
+  z-index: 1050 !important;
 }
