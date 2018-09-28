@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
   z-index: 2;
   background-color: white; /*gone*/
@@ -34,6 +34,7 @@
   padding-right: 3px;
   margin-left: 10px;
   margin-right: 10px;
+  /*margin-top: 520px;*/
 }
 .navbar-leadgeni-link:hover {
   color: #8E1D6E;
@@ -102,3 +103,15 @@
     display: none !important;
   }
 }
+
+
+/*#ycbmiframeschmidbauer-mediciinternetag {
+  margin-top: 200px;
+}*/
+
+/*.demo-hidden {
+  display: none;
+}
+.demo-show {
+  display: block !important;
+}*/

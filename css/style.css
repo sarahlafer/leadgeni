@@ -23,3 +23,8 @@ h2, h3, h4, h5, p, a, input {
 .modal {
   z-index: 1100 !important;
 }
+
+#modalFive .modal-dialog {
+  max-width: 770px !important;
+}
+

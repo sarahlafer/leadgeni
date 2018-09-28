@@ -19,7 +19,7 @@
 
 .btn-plum {
   font-weight: 500;
-  color: white;
+  color: white !important;
   font-size: 18px;
   padding: 10px 34px;
   background-color: #8E1D6E;
