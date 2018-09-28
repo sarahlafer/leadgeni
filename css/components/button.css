@@ -1,6 +1,6 @@
 .btn-reverse {
   font-weight: 500;
-  color: white;
+  color: white !important;
   font-size: 18px;
   border: 1px solid white;
   padding: 10px 15px;
