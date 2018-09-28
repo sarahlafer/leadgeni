@@ -27,6 +27,10 @@
   cursor: pointer;
 }
 
+.navbar-leadgeni-menu-points {
+  display: flex;
+}
+
 .navbar-leadgeni-link {
   color: #061649;
   font-size: 16px;
@@ -98,12 +102,31 @@
   border-top: 1px solid #E6E6E6;
 }
 
+.navbar-logo-small img {
+  display: none;
+  height: 50px;
+}
+
 @media (max-width: 992px) {
   #leadgeni-right {
     display: none !important;
   }
+  .navbar-leadgeni {
+  padding: 0 40px;
+}
 }
 
+@media (max-width: 450px) {
+  .navbar-logo-small img {
+  display: block;
+}
+.navbar-logo img {
+  display: none;
+}
+.navbar-leadgeni {
+  padding: 0 10px;
+}
+}
 
 /*#ycbmiframeschmidbauer-mediciinternetag {
   margin-top: 200px;
