@@ -16,36 +16,83 @@
     <a href="index.html" class="navbar-logo">
       <img src="images/logo.png" alt="logo">
     </a>
-    <div class="navbar-leadgeni-right d-none d-lg-block" id="leadgeni-right">
-      <a href="index.html#whynow" class="navbar-leadgeni-item navbar-leadgeni-link">Why Now</a>
-      <a href="index.html#whatwedo" class="navbar-leadgeni-item navbar-leadgeni-link">What We Do</a>
-      <div class="navbar-leadgeni-item">
+    <a href="index.html" class="navbar-logo-small">
+      <img src="images/favicon2.png" alt="logo">
+    </a>
+    <div class="navbar-leadgeni-menu-points">
+      <div class="navbar-leadgeni-right d-none d-lg-block" id="leadgeni-right">
+        <a href="index.html#whynow" class="navbar-leadgeni-item navbar-leadgeni-link">Why Now</a>
+        <a href="index.html#whatwedo" class="navbar-leadgeni-item navbar-leadgeni-link">What We Do</a>
+        <div class="navbar-leadgeni-item">
+          <div class="dropdown">
+            <a href="" class="navbar-leadgeni-link dropdown-toggle" id="navbar-leadgeni-menu" data-toggle="dropdown">LeadGeni Solutions</a>
+            <ul class="dropdown-menu dropdown-menu-right navbar-leadgeni-dropdown-menu">
+              <li><a href="index.html#solutions">B2B Sales</a></li>
+              <li><a href="index.html#solutions">Fund Raising</a></li>
+              <li><a href="index.html#catena">Community Building</a></li>
+              <li><a href="index.html#catena">Hiring</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-leadgeni-item d-md-block d-lg-none">
         <div class="dropdown">
-          <a href="" class="navbar-leadgeni-link dropdown-toggle" id="navbar-leadgeni-menu" data-toggle="dropdown">LeadGeni Solutions</a>
+          <a href="" class="navbar-leadgeni-item navbar-leadgeni-link dropdown-toggle" data-toggle="dropdown">Menu </a>
           <ul class="dropdown-menu dropdown-menu-right navbar-leadgeni-dropdown-menu">
-            <li><a href="index.html#solutions">B2B Sales</a></li>
-            <li><a href="index.html#solutions">Fund Raising</a></li>
-            <li><a href="index.html#catena">Community Building</a></li>
-            <li><a href="index.html#catena">Hiring</a></li>
+            <li><a href="index.html#whynow" class="navbar-leadgeni-item navbar-leadgeni-link">Why Now</a></li>
+            <li><a href="index.html#whatwedo" class="navbar-leadgeni-item navbar-leadgeni-link">What We Do</a></li>
+            <li><a href="index.html#solutions" class="navbar-leadgeni-item navbar-leadgeni-link">LeadGeni Solutions</a></li>
           </ul>
         </div>
       </div>
-      <a href="demo.html" class="navbar-leadgeni-item navbar-leadgeni-link">Demo</a>
-      <a href="contact.html" class="navbar-leadgeni-item navbar-leadgeni-link">Contact</a>
+      <div class="modal-demo">
+       <a class="navbar-leadgeni-item navbar-leadgeni-link" data-toggle="modal" data-target="#modalFive">
+        Demo
+      </a>
+      <div class="modal fade" id="modalFive" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Book a Demo</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <iframe src="https://schmidbauer-mediciinternetag.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframeschmidbauer-mediciinternetag" style="width:100%;border:0px;background-color:white;" frameborder="0" allowtransparency="true" class="demo-hidden"></iframe><script>window.addEventListener && window.addEventListener("message", function(event){if (event.origin === "https://schmidbauer-mediciinternetag.youcanbook.me"){document.getElementById("ycbmiframeschmidbauer-mediciinternetag").style.height = event.data + "px";}}, false);</script>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="navbar-leadgeni-item d-md-block d-lg-none">
-      <div class="dropdown">
-        <a href="" class="navbar-leadgeni-item navbar-leadgeni-link dropdown-toggle" data-toggle="dropdown">Menu </a>
-        <ul class="dropdown-menu dropdown-menu-right navbar-leadgeni-dropdown-menu">
-          <li><a href="index.html#whynow" class="navbar-leadgeni-item navbar-leadgeni-link">Why Now</a></li>
-          <li><a href="index.html#whatwedo" class="navbar-leadgeni-item navbar-leadgeni-link">What We Do</a></li>
-          <li><a href="index.html#solutions" class="navbar-leadgeni-item navbar-leadgeni-link">LeadGeni Solutions</a></li>
-          <li><a href="demo.html" class="navbar-leadgeni-item navbar-leadgeni-link">Demo</a></li>
-          <li><a href="contact.html" class="navbar-leadgeni-item navbar-leadgeni-link">Contact</a></li>
-        </ul>
+
+    <div class="modal-contact">
+     <a class="navbar-leadgeni-item navbar-leadgeni-link" data-toggle="modal" data-target="#modalSix">
+      Contact
+    </a>
+    <div class="modal fade" id="modalSix" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Get in Touch</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <script type="text/javascript" src="https://clearbitjs.com/v1/x/forms.js"></script>
+            <div class="clearbit-form" data-form-id="ffbd4495-264b-4a74-a9e8-489a89fd9948" data-theme="default" ></div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+
+
+
+  <!-- <a href="contact.html" class="navbar-leadgeni-item navbar-leadgeni-link">Contact</a> -->
+</div>
+</div>
   <div class="container">
     <div class="form-header">
       <h3 class="section"><span>Impressum</span></h3>
