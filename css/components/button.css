@@ -3,7 +3,7 @@
   color: white !important;
   font-size: 18px;
   border: 1px solid white;
-  padding: 10px 15px;
+  padding: 10px 49px;
   margin-right: 10px;
   border-radius: 4px;
   background: transparent;
@@ -21,7 +21,7 @@
   font-weight: 500;
   color: white !important;
   font-size: 18px;
-  padding: 10px 34px;
+  padding: 10px 25px;
   background-color: #8E1D6E;
   margin-left: 10px;
   border-radius: 4px;
@@ -46,10 +46,10 @@
 
 .btn-reverse-plum {
   font-weight: 500;
-  color: #8E1D6E;
+  color: #8E1D6E !important;
   font-size: 18px;
   border: 1px solid #8E1D6E;
-  padding: 10px 15px;
+  padding: 10px 49px;
   margin-right: 10px;
   border-radius: 4px;
   background: transparent;
@@ -57,7 +57,7 @@
 
 .btn-reverse-plum:hover {
   text-decoration: none;
-  color: white;
+  color: white !important;
   background-color: #8E1D6E;
   border: 1px solid #8E1D6E;
   transition: all 0.7s ease;

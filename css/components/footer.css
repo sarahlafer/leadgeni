@@ -38,6 +38,6 @@
 
 @media (max-width: 600px) {
   .footer-logo img {
-    display: none;
+    height: 40px;
   }
 }
