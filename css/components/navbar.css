@@ -114,14 +114,22 @@
   .navbar-leadgeni {
   padding: 0 40px;
 }
+
 }
 
-@media (max-width: 450px) {
-  .navbar-logo-small img {
-  display: block;
-}
+@media (max-width: 600px) {
 .navbar-logo img {
   display: none;
+}
+  .navbar-logo-small img {
+    display: block;
+  margin-right: 70px;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar-logo-small img {
+  display: block;
 }
 .navbar-leadgeni {
   padding: 0 10px;
