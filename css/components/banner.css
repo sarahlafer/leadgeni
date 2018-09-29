@@ -55,6 +55,12 @@
   }
 }
 
+@media (max-width: 575px) {
+  .banner-button {
+    display: none;
+  }
+}
+
 @media (max-width: 400px) {
   .banner-content h1 {
     /*margin-top: 36px;*/
@@ -63,22 +69,6 @@
   .banner-content h2 {
     font-size: 16px;
     padding: 0 20px;
-  }
-  .banner-button {
-    display: block;
-    padding-top: 10px;
-  }
-  .btn-left {
-    margin-top: 30px;
-  }
- .btn-reverse {
-  margin-right: 0px !important;
-  }
-  .btn-reverse-plum {
-  margin-right: 0px !important;
-  }
-  .btn-plum {
-  margin-left: 0px !important;
   }
   .navbar-leadgeni-item {
     padding: 0 !important;

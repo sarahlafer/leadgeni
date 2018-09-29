@@ -23,6 +23,7 @@
   font-size: 18px;
   padding: 10px 25px;
   background-color: #8E1D6E;
+  border: 1px solid #8E1D6E;
   margin-left: 10px;
   border-radius: 4px;
   transition: all 0.7s ease;
@@ -42,6 +43,18 @@
   background-color: #8E1D6E;
   margin-left: 10px;
   border-radius: 4px;
+  border: 1px solid #8E1D6E;
+}
+
+.btn-reverse-modal{
+  font-weight: 500;
+  color: white !important;
+  font-size: 18px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 4px;
+  background: transparent;
 }
 
 .btn-reverse-plum {
@@ -61,4 +74,34 @@
   background-color: #8E1D6E;
   border: 1px solid #8E1D6E;
   transition: all 0.7s ease;
+}
+
+.btn-plum-mobile {
+  font-weight: 500;
+  color: white !important;
+  font-size: 18px;
+  background-color: #8E1D6E;
+  border: 1px solid #8E1D6E;
+  border-radius: 4px;
+  transition: all 0.7s ease;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 40px;
+  align-items: center;
+}
+
+.btn-reverse-mobile {
+  font-weight: 500;
+  color: #8E1D6E !important;
+  font-size: 18px;
+  border: 1px solid #8E1D6E;
+  /*margin-right: 10px;*/
+  border-radius: 4px;
+  background: transparent;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 40px;
+  align-items: center;
 }
