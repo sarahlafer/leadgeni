@@ -21,7 +21,7 @@ h2, h3, h4, h5, p, a, input {
 }
 
 .modal {
-  z-index: 2100 !important;
+  /*z-index: 2100 !important;*/
 }
 
 #modalFive .modal-dialog {
@@ -34,4 +34,8 @@ h2, h3, h4, h5, p, a, input {
 
 iframe {
   height: 500px !important;
+}
+
+.modal-old-content p {
+  color: black;
 }
