@@ -10,6 +10,10 @@
   margin-top: 20px;
 }
 
+#flex-plans {
+  font-size: 16px;
+}
+
 .flex-plan {
   display: flex;
   width: 100%;
@@ -28,6 +32,7 @@
 
 .flex-plan-item h5 {
   margin-bottom: 0;
+  font-size: 18px;
 }
 
 .starter {
