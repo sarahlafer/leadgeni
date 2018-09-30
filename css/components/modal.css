@@ -18,6 +18,8 @@ iframe {
 
 .programm-content {
   margin: 0 auto;
+    overflow: scroll !important; /* Enable scroll if needed */
+
 }
 
 
@@ -42,6 +44,8 @@ iframe {
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
     top: 70px !important;
+    overflow: scroll !important; /* Enable scroll if needed */
+
 }
 
 .modal-content h3 {
