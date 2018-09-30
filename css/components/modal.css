@@ -73,9 +73,10 @@ iframe {
 
 .modal-content p {
   box-shadow: inset 0px -4px #8E1D6E;
-  padding: 10px 0;
+  padding: 30px 10px;
   font-size: 14px;
   color: black;
+  line-height: 2;
 }
 
 .modal-content h5 {
