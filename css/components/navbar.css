@@ -32,7 +32,7 @@
 }
 
 .navbar-leadgeni-link {
-  color: #061649;
+  color: #061649 !important;
   font-size: 16px;
   padding-left: 3px;
   padding-right: 3px;
