@@ -59,6 +59,9 @@
   .banner-button {
     display: none;
   }
+  .banner {
+    height: calc(80vh - 70px);
+  }
 }
 
 @media (max-width: 400px) {
