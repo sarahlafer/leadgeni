@@ -4,10 +4,12 @@
 @import url("components/field.css");
 @import url("components/footer.css");
 @import url("components/form.css");
+@import url("components/modal.css");
 @import url("pages/index.css");
 @import url("pages/plans.css");
 @import url("pages/demo.css");
 @import url("pages/impressum.css");
+
 
 
 @font-face {
@@ -18,24 +20,4 @@ src: local(Oscar), url('fonts/Oscar/Pelavin Fonts - Oscar.otf') format('opentype
 h2, h3, h4, h5, p, a, input {
   margin: 0;
   font-family: Verdana, Helvetica, sans-serif !important;
-}
-
-.modal {
-  /*z-index: 2100 !important;*/
-}
-
-#modalFive .modal-dialog {
-  max-width: 770px !important;
-}
-
-#modalFive .modal-body {
-  padding-top: 0 !important;
-}
-
-iframe {
-  height: 500px !important;
-}
-
-.modal-old-content p {
-  color: black;
 }
