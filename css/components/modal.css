@@ -18,8 +18,11 @@ iframe {
 
 .programm-content {
   margin: 0 auto;
-    overflow: scroll !important; /* Enable scroll if needed */
+  overflow: scroll !important; /* Enable scroll if needed */
+}
 
+.navbar-modal-content {
+  overflow: scroll !important; /* Enable scroll if needed */
 }
 
 
@@ -43,9 +46,18 @@ iframe {
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
-    top: 70px !important;
     overflow: scroll !important; /* Enable scroll if needed */
 
+}
+
+.mobile-modal {
+    top: 70px !important;
+
+}
+
+.desktop-modal {
+  top: 0 !important;
+  margin: 5% auto;
 }
 
 .modal-content h3 {
@@ -93,7 +105,7 @@ iframe {
 
 
 .modal-header {
-  color: #8E1D6E;
+  color: #061649;
   padding: 0;
   font-size: 23px;
 }
