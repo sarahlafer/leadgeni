@@ -166,14 +166,9 @@
 
 }
 
-@media (max-width: 600px) {
-  .navbar-logo img {
-    /*display: none;*/
-  }
 
-}
 
-@media (max-width: 575px) {
+@media (max-width: 700px) {
   .form-mobile {
     display: block;
     position: fixed;
