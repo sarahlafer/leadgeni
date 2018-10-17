@@ -9,3 +9,9 @@
 .form-header {
   padding-top: 100px;
 }
+
+@media (max-width: 800px) {
+  .form-header {
+    padding-top: 140px;
+  }
+}
