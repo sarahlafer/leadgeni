@@ -61,6 +61,7 @@
   }
   .banner {
     height: calc(80vh - 70px);
+    margin-top: 130px;
   }
 }
 

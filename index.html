@@ -21,10 +21,10 @@
 
   <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -51,7 +51,7 @@
             </div>
           </div>
         </div>
-        <div class="navbar-leadgeni-item d-md-block d-lg-none">
+        <div class="navbar-leadgeni-item hidden-md hidden-lg">
           <div class="dropdown">
             <a href="" class="navbar-leadgeni-item navbar-leadgeni-link dropdown-toggle" data-toggle="dropdown">Menu </a>
             <ul class="dropdown-menu dropdown-menu-right navbar-leadgeni-dropdown-menu">
@@ -62,7 +62,7 @@
           </div>
         </div>
 
-        <div class="modal-demo d-none d-sm-block">
+        <div class="modal-demo hidden-xs">
           <a id="myBtn5" class="navbar-leadgeni-item navbar-leadgeni-link">Demo</a>
           <div id="myModal5" class="modal modal-desktop-big">
             <div class="modal-content desktop-modal">
@@ -76,7 +76,7 @@
         </div>
 
 
-        <div class="modal-contact d-none d-sm-block">
+        <div class="modal-contact hidden-xs">
           <a id="myBtn6" class="navbar-leadgeni-item navbar-leadgeni-link">Contact</a>
           <div id="myModal6" class="modal modal-desktop-big">
             <div class="modal-content desktop-modal">
@@ -91,12 +91,13 @@
       </div>
 
     </div>
+  </div>
 
-    <div class="form-mobile">
+  <div class="form-mobile">
 
-      <div class="buttons-mobile">
+    <div class="buttons-mobile">
 
-        <div class="modal-contact mobile">
+      <div class="modal-contact mobile">
 
         <div class="modal-contact">
           <a id="myBtn11" class="navbar-leadgeni-item btn-reverse-mobile">Contact</a>
@@ -110,198 +111,197 @@
             </div>
           </div>
         </div>
-        </div>
-        <div class="modal-demo mobile">
-          <a id="myBtn12" class="navbar-leadgeni-item btn-plum-mobile">Demo</a>
-          <div id="myModal12" class="modal modal-desktop-big">
-            <div class="modal-content desktop-modal">
-              <span id="close12" class="close">&times;</span>
-              <div class="desktop-content">
-                <h2 class="modal-header">Book a Demo</h2>
-                <iframe src="https://schmidbauer-mediciinternetag.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframeschmidbauer-mediciinternetag" style="width:100%;border:0px;background-color:white;" frameborder="0" allowtransparency="true" class="demo-hidden"></iframe>
-              </div>
+      </div>
+      <div class="modal-demo mobile">
+        <a id="myBtn12" class="navbar-leadgeni-item btn-plum-mobile">Demo</a>
+        <div id="myModal12" class="modal modal-desktop-big">
+          <div class="modal-content desktop-modal">
+            <span id="close12" class="close">&times;</span>
+            <div class="desktop-content">
+              <h2 class="modal-header">Book a Demo</h2>
+              <iframe src="https://schmidbauer-mediciinternetag.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframeschmidbauer-mediciinternetag" style="width:100%;border:0px;background-color:white;" frameborder="0" allowtransparency="true" class="demo-hidden"></iframe>
             </div>
           </div>
+        </div>
       </div>
 
     </div>
   </div>
 
-</div>
-<scroll-container>
-  <div class="banner" style="background-image: url('images/banner2.png');">
-    <div class="banner-content text-center">
-      <h1>Science is magic that works</h1>
-      <h2>A SCIENTIFIC METHOD FOR LINKEDIN LEAD GEN TO MAKE YOUR BUSINESS DREAMS COME TRUE!</h2>
-      <div class="banner-button">
-        <div class="btn-left">
-          <div class="modal-contact">
-          <a id="myBtn7" class="btn-reverse">Contact us</a>
-          <div id="myModal7" class="modal modal-desktop-big">
-            <div class="modal-content desktop-modal">
-              <span id="close7" class="close">&times;</span>
-              <div class="desktop-content">
-                <h2 class="modal-header">Get in Touch</h2>
-                <div class="clearbit-form" data-form-id="ffbd4495-264b-4a74-a9e8-489a89fd9948" data-theme="default"></div>
+  <!-- <scroll-container> -->
+    <div class="banner" style="background-image: url('images/banner2.png');">
+      <div class="banner-content text-center">
+        <h1>Science is magic that works</h1>
+        <h2>A SCIENTIFIC METHOD FOR LINKEDIN LEAD GEN TO MAKE YOUR BUSINESS DREAMS COME TRUE!</h2>
+        <div class="banner-button">
+          <div class="btn-left">
+            <div class="modal-contact">
+              <a id="myBtn7" class="btn-reverse">Contact us</a>
+              <div id="myModal7" class="modal modal-desktop-big">
+                <div class="modal-content desktop-modal">
+                  <span id="close7" class="close">&times;</span>
+                  <div class="desktop-content">
+                    <h2 class="modal-header">Get in Touch</h2>
+                    <div class="clearbit-form" data-form-id="ffbd4495-264b-4a74-a9e8-489a89fd9948" data-theme="default"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn-left">
+            <div class="modal-demo">
+              <a id="myBtn8" class="btn-plum">Book a Demo</a>
+              <div id="myModal8" class="modal modal-desktop-big">
+                <div class="modal-content desktop-modal">
+                  <span id="close8" class="close">&times;</span>
+                  <div class="desktop-content">
+                    <h2 class="modal-header">Book a Demo</h2>
+                    <iframe src="https://schmidbauer-mediciinternetag.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframeschmidbauer-mediciinternetag" style="width:100%;border:0px;background-color:white;" frameborder="0" allowtransparency="true" class="demo-hidden"></iframe>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="btn-left">
-        <div class="modal-demo">
-          <a id="myBtn8" class="btn-plum">Book a Demo</a>
-          <div id="myModal8" class="modal modal-desktop-big">
-            <div class="modal-content desktop-modal">
-              <span id="close8" class="close">&times;</span>
-              <div class="desktop-content">
-                <h2 class="modal-header">Book a Demo</h2>
-                <iframe src="https://schmidbauer-mediciinternetag.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframeschmidbauer-mediciinternetag" style="width:100%;border:0px;background-color:white;" frameborder="0" allowtransparency="true" class="demo-hidden"></iframe>
-              </div>
+    </div>
+
+    <div id="whynow">
+      <div class="container">
+        <h3 class="section"><span>Why now?</span></h3>
+        <h5 class="text-center">WHY NOW is the right time to use LinkedIn for Lead Generation</h5>
+        <div class="whynow-icons text-center">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4">
+              <img src="images/icons/globe.svg" alt="Icon Globe">
+              <h4>User Numbers</h4>
+              <p>More than 500 million: LinkedIn became the global digital Business Card</p>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img src="images/icons/phone2.svg" alt="Icon Phone">
+              <h4>Frequency of Visits</h4>
+              <p>The Smartphone LinkedIn App enjoys great popularity and boosts sessions-per-user</p>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img src="images/icons/laptop.svg" alt="Icon Laptop">
+              <h4>Retention Time</h4>
+              <p>Business Content shifts from Facebook to LinkedIn</p>
             </div>
           </div>
         </div>
-    </div>
-  </div>
-</div>
-</div>
-
-<div id="whynow">
-  <div class="container">
-    <h3 class="section"><span>Why now?</span></h3>
-    <h5 class="text-center">WHY NOW is the right time to use LinkedIn for Lead Generation</h5>
-    <div class="whynow-icons text-center">
-      <div class="row">
-        <div class="col-xs-12 col-sm-4">
-          <img src="images/icons/globe.svg" alt="Icon Globe">
-          <h4>User Numbers</h4>
-          <p>More than 500 million: LinkedIn became the global digital Business Card</p>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <img src="images/icons/phone2.svg" alt="Icon Phone">
-          <h4>Frequency of Visits</h4>
-          <p>The Smartphone LinkedIn App enjoys great popularity and boosts sessions-per-user</p>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <img src="images/icons/laptop.svg" alt="Icon Laptop">
-          <h4>Retention Time</h4>
-          <p>Business Content shifts from Facebook to LinkedIn</p>
-        </div>
       </div>
     </div>
-  </div>
-</div>
 
-<div id="whatwedo">
-  <div class="container">
-    <h3 class="section"><span>What we do</span></h3>
-    <h5 class="text-center">Automated LinkedIn outreach - based on a scientific approach</h5>
-    <div class="field-flex-one">
-      <div class="field-flex-item">
-        <div class="field-content plum">
-          <div class="field-description">
-            <h4>1. Identify</h4>
-            <p class="field-height">Create Lead Lists</p>
-            <div class="more-info">
-              <button id="myBtn1" class="btn-reverse-modal">More Info</button>
-              <div id="myModal1" class="modal">
+    <div id="whatwedo">
+      <div class="container">
+        <h3 class="section"><span>What we do</span></h3>
+        <h5 class="text-center">Automated LinkedIn outreach - based on a scientific approach</h5>
+        <div class="field-flex-one">
+          <div class="field-flex-item">
+            <div class="field-content plum">
+              <div class="field-description">
+                <h4>1. Identify</h4>
+                <p class="field-height">Create Lead Lists</p>
+                <div class="more-info">
+                  <button id="myBtn1" class="btn-reverse-modal">More Info</button>
+                  <div id="myModal1" class="modal">
+                    <div class="modal-content">
+                      <span id="close1" class="close">&times;</span>
+                      <div class="programm-content">
+                        <h2 class="modal-header">Identify</h2>
+                        <p>We craft the perfect search for You with the help of more than 20 different Search Filters such as Job Title, Function, Company Headcount, Company Type, Keywords, Geography, Industry, Seniority, Exclusion of Existing Customers, Exclusion of Existing Connections, LinkedIn Groups, Years of Experience, Posted Content, and others.
+                        We craft the perfect search for You with the help of more than 20 different Search Filters such as Job Title, Function, Company Headcount, Company Type, Keywords, Geography, Industry, Seniority, Exclusion of Existing Customers, Exclusion of Existing Connections, LinkedIn Groups, Years of Experience, Posted Content, and others.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="field-arrow">
+                <a href="#arrow-identify">
+                  <img src="images/arrow-white.png" alt="White Arrow">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="field-flex-item">
+            <div class="field-content white">
+              <div class="field-description">
+                <h4>2. Connect</h4>
+                <p class="field-height">Get them into private conversation and raise their interest</p>
+                <div class="more-info">
+                 <button id="myBtn2" class="btn-plum-field">More Info</button>
+                 <div id="myModal2" class="modal">
+                  <div class="modal-content">
+                    <span id="close2" class="close">&times;</span>
+                    <div class="programm-content">
+                      <h2 class="modal-header">Connect</h2>
+                      <p>We know by fact that InMail is NOT the right approach to contact Your target audience. Why? Because it is considered as Spam or Advertisement by LinkedIn users and gets deleted by most people before even reading it! LeadGENI is different. <br>SCIENCE IS MAGIC THAT WORKS! The LeadGENI approach underlies a scientific study. We use pure psychology to personalize messaging, create similarities with Your lead and enhance Your perceived expertise. By doing so, we take out the distance between You and Your leads and make them feel to miss out if they don’t connect with You!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="field-arrow">
+              <a href="#arrow-connect">
+                <img src="images/arrow-plum.png" alt="Pink Arrow">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="field-flex-one">
+        <div class="field-flex-item">
+          <div class="field-content white white-reverse">
+            <div class="field-description">
+              <h4>3. Pitch</h4>
+              <p class="field-height">Placement of your intention as a personalized soft pitch</p>
+              <div class="more-info">
+               <button id="myBtn3" class="btn-reverse-modal">More Info</button>
+               <div id="myModal3" class="modal">
                 <div class="modal-content">
-                  <span id="close1" class="close">&times;</span>
+                  <span id="close3" class="close">&times;</span>
                   <div class="programm-content">
-                    <h2 class="modal-header">Identify</h2>
-                    <p>We craft the perfect search for You with the help of more than 20 different Search Filters such as Job Title, Function, Company Headcount, Company Type, Keywords, Geography, Industry, Seniority, Exclusion of Existing Customers, Exclusion of Existing Connections, LinkedIn Groups, Years of Experience, Posted Content, and others.
-                    We craft the perfect search for You with the help of more than 20 different Search Filters such as Job Title, Function, Company Headcount, Company Type, Keywords, Geography, Industry, Seniority, Exclusion of Existing Customers, Exclusion of Existing Connections, LinkedIn Groups, Years of Experience, Posted Content, and others.</p>
+                    <h2 class="modal-header">Pitch</h2>
+                    <p>Once someone connected, it is time for Your pitch. The acceptance is tremendously higher compared to InMail. Why? Because we gave people the power to avoid our message. They connected with us anyways and we even teased our topic. Therefore, them connecting gives us a legit reason to pitch. <br>On top of that, we are experts to customize Your pitch in a “LinkedIn appropriate manner”. What we mean by that? LinkedIn is a people-to-people channel, not business-to-people. Therefore, Your pitch needs to be both specific and charming. We consult You how to do that and we use the data of hundreds of campaigns to adjust it for Your vertical.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="field-arrow">
-            <a href="#arrow-identify">
-              <img src="images/arrow-white.png" alt="White Arrow">
+            <a href="#arrow-pitch">
+              <img src="images/arrow-plum.png" alt="Pink Arrow">
             </a>
           </div>
         </div>
       </div>
       <div class="field-flex-item">
-        <div class="field-content white">
+        <div class="field-content plum plum-reverse">
           <div class="field-description">
-            <h4>2. Connect</h4>
-            <p class="field-height">Get them into private conversation and raise their interest</p>
+            <h4>4. Close</h4>
+            <p class="field-height">We make Leads book Demos with your Sales Team</p>
             <div class="more-info">
-             <button id="myBtn2" class="btn-plum-field">More Info</button>
-             <div id="myModal2" class="modal">
-              <div class="modal-content">
-                <span id="close2" class="close">&times;</span>
-                <div class="programm-content">
-                  <h2 class="modal-header">Connect</h2>
-                  <p>We know by fact that InMail is NOT the right approach to contact Your target audience. Why? Because it is considered as Spam or Advertisement by LinkedIn users and gets deleted by most people before even reading it! LeadGENI is different. <br>SCIENCE IS MAGIC THAT WORKS! The LeadGENI approach underlies a scientific study. We use pure psychology to personalize messaging, create similarities with Your lead and enhance Your perceived expertise. By doing so, we take out the distance between You and Your leads and make them feel to miss out if they don’t connect with You!</p>
+              <button id="myBtn4" class="btn-plum-field">More Info</button>
+              <div id="myModal4" class="modal">
+                <div class="modal-content">
+                  <span id="close4" class="close">&times;</span>
+                  <div class="programm-content">
+                    <h2 class="modal-header">Close</h2>
+                    <p>The final step. We don’t close the leads for You. That’s the job of Your Sales team. But we help You with everything we can to get You Calls & Meetings. We can integrate Your YouCanBook.me or Calendly into the process, create an interface with Your CRM to follow-up when requested and share best practices how to transfer a lead from a private LinkedIn conversation into Your Business environment.</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="field-arrow">
-          <a href="#arrow-connect">
-            <img src="images/arrow-plum.png" alt="Pink Arrow">
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="field-flex-one">
-    <div class="field-flex-item">
-      <div class="field-content white white-reverse">
-        <div class="field-description">
-          <h4>3. Pitch</h4>
-          <p class="field-height">Placement of your intention as a personalized soft pitch</p>
-          <div class="more-info">
-           <button id="myBtn3" class="btn-reverse-modal">More Info</button>
-           <div id="myModal3" class="modal">
-            <div class="modal-content">
-              <span id="close3" class="close">&times;</span>
-              <div class="programm-content">
-                <h2 class="modal-header">Pitch</h2>
-                <p>Once someone connected, it is time for Your pitch. The acceptance is tremendously higher compared to InMail. Why? Because we gave people the power to avoid our message. They connected with us anyways and we even teased our topic. Therefore, them connecting gives us a legit reason to pitch. <br>On top of that, we are experts to customize Your pitch in a “LinkedIn appropriate manner”. What we mean by that? LinkedIn is a people-to-people channel, not business-to-people. Therefore, Your pitch needs to be both specific and charming. We consult You how to do that and we use the data of hundreds of campaigns to adjust it for Your vertical.</p>
-              </div>
-            </div>
+          <div class="field-arrow">
+            <a href="#arrow-close">
+              <img src="images/arrow-white.png" alt="White Arrow">
+            </a>
           </div>
         </div>
       </div>
-      <div class="field-arrow">
-        <a href="#arrow-pitch">
-          <img src="images/arrow-plum.png" alt="Pink Arrow">
-        </a>
-      </div>
     </div>
   </div>
-  <div class="field-flex-item">
-    <div class="field-content plum plum-reverse">
-      <div class="field-description">
-        <h4>4. Close</h4>
-        <p class="field-height">We make Leads book Demos with your Sales Team</p>
-        <div class="more-info">
-          <button id="myBtn4" class="btn-plum-field">More Info</button>
-          <div id="myModal4" class="modal">
-            <div class="modal-content">
-              <span id="close4" class="close">&times;</span>
-              <div class="programm-content">
-                <h2 class="modal-header">Close</h2>
-                <p>The final step. We don’t close the leads for You. That’s the job of Your Sales team. But we help You with everything we can to get You Calls & Meetings. We can integrate Your YouCanBook.me or Calendly into the process, create an interface with Your CRM to follow-up when requested and share best practices how to transfer a lead from a private LinkedIn conversation into Your Business environment.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="field-arrow">
-        <a href="#arrow-close">
-          <img src="images/arrow-white.png" alt="White Arrow">
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
 </div>
 
 <div id="whatwedo-description">
@@ -392,33 +392,33 @@
     <div class="banner-button text-center">
      <div class="btn-left">
       <div class="modal-contact">
-          <a id="myBtn9" class="btn-reverse-plum">Contact</a>
-          <div id="myModal9" class="modal modal-desktop-big">
-            <div class="modal-content desktop-modal">
-              <span id="close9" class="close">&times;</span>
-              <div class="desktop-content">
-                <h2 class="modal-header">Get in Touch</h2>
-                <div class="clearbit-form" data-form-id="ffbd4495-264b-4a74-a9e8-489a89fd9948" data-theme="default"></div>
-              </div>
+        <a id="myBtn9" class="btn-reverse-plum">Contact</a>
+        <div id="myModal9" class="modal modal-desktop-big">
+          <div class="modal-content desktop-modal">
+            <span id="close9" class="close">&times;</span>
+            <div class="desktop-content">
+              <h2 class="modal-header">Get in Touch</h2>
+              <div class="clearbit-form" data-form-id="ffbd4495-264b-4a74-a9e8-489a89fd9948" data-theme="default"></div>
             </div>
           </div>
         </div>
-  </div>
-  <div class="btn-left">
+      </div>
+    </div>
+    <div class="btn-left">
       <div class="modal-demo">
-          <a id="myBtn10" class="btn-plum">Book a Demo</a>
-          <div id="myModal10" class="modal modal-desktop-big">
-            <div class="modal-content desktop-modal">
-              <span id="close10" class="close">&times;</span>
-              <div class="desktop-content">
-                <h2 class="modal-header">Book a Demo</h2>
-                <iframe src="https://schmidbauer-mediciinternetag.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframeschmidbauer-mediciinternetag" style="width:100%;border:0px;background-color:white;" frameborder="0" allowtransparency="true" class="demo-hidden"></iframe>
-              </div>
+        <a id="myBtn10" class="btn-plum">Book a Demo</a>
+        <div id="myModal10" class="modal modal-desktop-big">
+          <div class="modal-content desktop-modal">
+            <span id="close10" class="close">&times;</span>
+            <div class="desktop-content">
+              <h2 class="modal-header">Book a Demo</h2>
+              <iframe src="https://schmidbauer-mediciinternetag.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframeschmidbauer-mediciinternetag" style="width:100%;border:0px;background-color:white;" frameborder="0" allowtransparency="true" class="demo-hidden"></iframe>
             </div>
           </div>
         </div>
-</div>
-</div>
+      </div>
+    </div>
+  </div>
 </div>
 </div>
 
@@ -433,13 +433,13 @@
           <a href="#"><i class="fab fa-twitter"></i></a> -->
         </div>
       </div>
-    </scroll-container>
+      <!-- </scroll-container> -->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="lib/app.js"></script>
-    <script type="text/javascript" src="https://clearbitjs.com/v1/x/forms.js"></script>
-    <script>window.addEventListener && window.addEventListener("message", function(event){if (event.origin === "https://schmidbauer-mediciinternetag.youcanbook.me"){document.getElementById("ycbmiframeschmidbauer-mediciinternetag").style.height = event.data + "px";}}, false);</script>
-  </body>
-  </html>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="lib/app.js"></script>
+      <script type="text/javascript" src="https://clearbitjs.com/v1/x/forms.js"></script>
+      <script>window.addEventListener && window.addEventListener("message", function(event){if (event.origin === "https://schmidbauer-mediciinternetag.youcanbook.me"){document.getElementById("ycbmiframeschmidbauer-mediciinternetag").style.height = event.data + "px";}}, false);</script>
+    </body>
+    </html>

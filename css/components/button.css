@@ -89,6 +89,10 @@
   align-items: center;
 }
 
+.btn-plum-mobile:hover {
+  text-decoration: none;
+}
+
 .btn-reverse-mobile {
   font-weight: 500;
   color: #8E1D6E !important;
@@ -102,4 +106,8 @@
   justify-content: space-around;
   height: 50px;
   align-items: center;
+}
+
+.btn-reverse-mobile:hover {
+  text-decoration: none;
 }
